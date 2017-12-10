@@ -1,0 +1,84 @@
+body {
+  font-family: 'Helvetica Neue', Verdana, Helvetica, Arial, sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  padding-top: 40px;
+  -webkit-font-smoothing: antialiased;
+  font-size: 1.125em;
+  color: #999;
+  line-height: 1.5em;
+  background: #222;
+}
+
+input {
+  font-family: inherit;
+}
+
+.board {
+  display: grid;
+  grid-gap: 2px;
+  align-content: start;
+  justify-content: center;
+}
+
+.cell {
+  background: black;
+}
+
+.apple {
+  background: #00e676;
+}
+
+.score {
+  font-size: 1.2em;
+  font-weight: bold;
+  text-align: center;
+  margin: 10px;
+}
+
+.splash {
+  font-size: 2em;
+  text-align: center;
+  margin: 25px;
+}
+
+.instructions {
+  display: grid;
+  grid-template-columns: max-content max-content;
+  grid-column-gap: 10px;
+  grid-row-gap: 15px;
+  justify-content: center;
+
+  margin-top: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+
+  padding: 30px;
+  background: black;
+  width: fit-content;
+}
+
+.keys {
+  text-align: right;
+}
+
+.colon {
+  color: #00ff84;
+  padding-left: 5px;
+}
+
+.start-button-wrapper {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.start-button {
+  background-color: #00e676;
+  border: none;
+  font-size: inherit;
+  padding-left: 1.9em;
+  padding-right: 1.9em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
