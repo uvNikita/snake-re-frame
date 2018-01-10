@@ -2,6 +2,10 @@
 
 Snake game with time rewind built using clojure, re-frame, and css grid layout
 
+## Demo
+
+![Game demo](snake.apng "Game demo")
+
 ## Development Mode
 
 ### Run application:
