@@ -1,4 +1,4 @@
-(ns snake-re-frame.util)
+(ns snake-re-frame.util (:require clojure.set))
 
 
 (defn rand-cell [{:keys [width height] :as board}]
