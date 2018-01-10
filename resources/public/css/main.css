@@ -44,8 +44,8 @@ input {
 
 .instructions {
   display: grid;
-  grid-template-columns: max-content max-content;
-  grid-column-gap: 10px;
+  grid-template-columns: max-content max-content max-content;
+  grid-column-gap: 5px;
   grid-row-gap: 15px;
   justify-content: center;
 
@@ -65,7 +65,6 @@ input {
 
 .colon {
   color: #00ff84;
-  padding-left: 5px;
 }
 
 .start-button-wrapper {

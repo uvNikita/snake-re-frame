@@ -49,8 +49,8 @@
    [start-button "Start again"]])
 
 (defn instruction-row [keys description]
-  [[:div.keys
-    [:span keys] [:span.colon ":"]]
+  [[:div.keys keys]
+   [:div.colon ":"]
    [:div description]])
 
 (defn game-menu []
